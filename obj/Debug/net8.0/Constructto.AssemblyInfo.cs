@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Constructto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac78442b17d9d24356029a5d433bc4e4a8d14c59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Constructto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Constructto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
