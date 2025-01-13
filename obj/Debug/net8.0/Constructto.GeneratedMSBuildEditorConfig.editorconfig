@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Constructto
+build_property.RootNamespace = Constructto
+build_property.ProjectDir = C:\Users\phili\source\repos\Constructto\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\phili\source\repos\Constructto
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Estoque/ListaEstoque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZVxMaXN0YUVzdG9xdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Estoque/RegistraProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZVxSZWdpc3RyYVByb2R1dG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Estoque/_EstoqueTableBody.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0b3F1ZVxfRXN0b3F1ZVRhYmxlQm9keS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Funcionario/ListaFuncionarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cTGlzdGFGdW5jaW9uYXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Funcionario/RegisterFuncionario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cUmVnaXN0ZXJGdW5jaW9uYXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Funcionario/_FuncionarioTableBody.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9cX0Z1bmNpb25hcmlvVGFibGVCb2R5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/GerenciaObras/ListaObras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFPYnJhc1xMaXN0YU9icmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/GerenciaObras/RegistraObras.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFPYnJhc1xSZWdpc3RyYU9icmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/GerenciaObras/_ObrasTableBody.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VyZW5jaWFPYnJhc1xfT2JyYXNUYWJsZUJvZHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Obras/GerenciarFuncionarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcR2VyZW5jaWFyRnVuY2lvbmFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Obras/_FuncionariosDisponiveis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcX0Z1bmNpb25hcmlvc0Rpc3Bvbml2ZWlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Obras/_ObrasList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2JyYXNcX09icmFzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phili/source/repos/Constructto/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ci56cm9xs0

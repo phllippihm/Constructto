@@ -1,0 +1,10 @@
+Data: 01/10/2024 21:42:02
+Erros de validação ao criar:
+- Propriedade: obra.Obra
+  * Erro: The Obra field is required.
+--------------------------------------------------
+Data: 01/10/2024 21:44:42
+Erros de validação ao criar:
+- Propriedade: obra.Obra
+  * Erro: The Obra field is required.
+--------------------------------------------------

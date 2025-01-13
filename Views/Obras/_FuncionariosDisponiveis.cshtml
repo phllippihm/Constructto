@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Constructto.Models.Funcionario>
+
+@foreach (var funcionario in Model)
+{
+    <li class="list-group-item draggable" draggable="true" data-funcionario-id="@funcionario.Id">
+        @funcionario.Nome
+    </li>
+}

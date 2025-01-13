@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Constructto.Models.Funcionario>
+
+@foreach (var funcionario in Model)
+{
+    <tr>
+        <td>@funcionario.Nome</td>
+        <td>@funcionario.CPF</td>
+        <td>@(funcionario.CarteiraHabilitacao == "Sim" ? "Sim" : "Não")</td>
+        <td>@funcionario.PrincipaisQualidades</td>
+        <td>@funcionario.Salario.ToString("C")</td>
+        <td>
+            <a href="@Url.Action("Edit", "Funcionario", new { id = funcionario.Id })" class="btn btn-primary">Editar</a>
+            <form asp-action="Delete" asp-route-id="@funcionario.Id" method="post" class="d-inline">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Deseja excluir este funcionário?')">Excluir</button>
+            </form>
+        </td>
+    </tr>
+}

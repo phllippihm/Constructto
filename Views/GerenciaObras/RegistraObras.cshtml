@@ -1,0 +1,37 @@
+﻿@model Constructto.Models.ObrasViewModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-12 text-start">
+            <a href="@Url.Action("ListaObras", "GerenciaObras")" class="btn btn-outline-secondary mb-3">
+                <i class="bi bi-arrow-left"></i> Voltar
+            </a>
+        </div>
+
+        <div class="col-md-8">
+            <img src="/Imagens/foto.png" alt="Logo" class="login-logo mx-auto d-block mb-4" />
+        </div>
+    </div>
+
+    <!-- Define a ação do formulário dependendo se ObraId é nulo ou não -->
+    <form asp-action="@(Model.Obras.ObraId == 0 ? "Create" : "Edit")" method="post">
+        <input type="hidden" asp-for="Obras.ObraId" />
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label asp-for="Obras.Obra">Nome da Obra:</label>
+                <input asp-for="Obras.Obra" class="form-control" />
+                <span asp-validation-for="Obras.Obra" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-primary w-100">Salvar</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

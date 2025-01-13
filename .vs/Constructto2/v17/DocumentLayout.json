@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phili\\source\\repos\\Constructto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\obras\\gerenciarfuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\obras\\gerenciarfuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\obras\\_obraslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\obras\\_obraslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\obras\\_funcionariosdisponiveis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\obras\\_funcionariosdisponiveis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\gerenciaobras\\registraobras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\gerenciaobras\\registraobras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\gerenciaobras\\listaobras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\gerenciaobras\\listaobras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\gerenciaobras\\_obrastablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\gerenciaobras\\_obrastablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\funcionario\\registerfuncionario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\funcionario\\registerfuncionario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\funcionario\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\funcionario\\listafuncionarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\funcionario\\_funcionariotablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\funcionario\\_funcionariotablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\estoque\\registraproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\estoque\\registraproduto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\estoque\\listaestoque.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\estoque\\listaestoque.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\estoque\\_estoquetablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\estoque\\_estoquetablebody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\models\\estoqueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:models\\estoqueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:models\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|c:\\users\\phili\\source\\repos\\constructto\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D95CCEB1-C73F-4DA8-B576-5016EB5938BE}|Constructto.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T15:27:46.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:17:00.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:16:47.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GerenciarFuncionarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\GerenciarFuncionarios.cshtml",
+              "RelativeDocumentMoniker": "Views\\Obras\\GerenciarFuncionarios.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\GerenciarFuncionarios.cshtml",
+              "RelativeToolTip": "Views\\Obras\\GerenciarFuncionarios.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:16:00.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ObrasList.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\_ObrasList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Obras\\_ObrasList.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\_ObrasList.cshtml",
+              "RelativeToolTip": "Views\\Obras\\_ObrasList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:58.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_FuncionariosDisponiveis.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\_FuncionariosDisponiveis.cshtml",
+              "RelativeDocumentMoniker": "Views\\Obras\\_FuncionariosDisponiveis.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Obras\\_FuncionariosDisponiveis.cshtml",
+              "RelativeToolTip": "Views\\Obras\\_FuncionariosDisponiveis.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:56.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:52.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistraObras.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\RegistraObras.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciaObras\\RegistraObras.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\RegistraObras.cshtml",
+              "RelativeToolTip": "Views\\GerenciaObras\\RegistraObras.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:36.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListaObras.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\ListaObras.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciaObras\\ListaObras.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\ListaObras.cshtml",
+              "RelativeToolTip": "Views\\GerenciaObras\\ListaObras.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:03.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ObrasTableBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\_ObrasTableBody.cshtml",
+              "RelativeDocumentMoniker": "Views\\GerenciaObras\\_ObrasTableBody.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\GerenciaObras\\_ObrasTableBody.cshtml",
+              "RelativeToolTip": "Views\\GerenciaObras\\_ObrasTableBody.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:15:00.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterFuncionario.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\RegisterFuncionario.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionario\\RegisterFuncionario.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\RegisterFuncionario.cshtml",
+              "RelativeToolTip": "Views\\Funcionario\\RegisterFuncionario.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:06:18.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListaFuncionarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\ListaFuncionarios.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionario\\ListaFuncionarios.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\ListaFuncionarios.cshtml",
+              "RelativeToolTip": "Views\\Funcionario\\ListaFuncionarios.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:05:23.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_FuncionarioTableBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\_FuncionarioTableBody.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionario\\_FuncionarioTableBody.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Funcionario\\_FuncionarioTableBody.cshtml",
+              "RelativeToolTip": "Views\\Funcionario\\_FuncionarioTableBody.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:05:10.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistraProduto.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\RegistraProduto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estoque\\RegistraProduto.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\RegistraProduto.cshtml",
+              "RelativeToolTip": "Views\\Estoque\\RegistraProduto.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:01:17.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListaEstoque.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\ListaEstoque.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estoque\\ListaEstoque.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\ListaEstoque.cshtml",
+              "RelativeToolTip": "Views\\Estoque\\ListaEstoque.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:00:40.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_EstoqueTableBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\_EstoqueTableBody.cshtml",
+              "RelativeDocumentMoniker": "Views\\Estoque\\_EstoqueTableBody.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Estoque\\_EstoqueTableBody.cshtml",
+              "RelativeToolTip": "Views\\Estoque\\_EstoqueTableBody.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T16:00:37.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T15:50:25.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T15:50:21.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EstoqueViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\EstoqueViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EstoqueViewModel.cs",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\EstoqueViewModel.cs",
+              "RelativeToolTip": "Models\\EstoqueViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T20:24:43.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\Estoque.cs",
+              "RelativeDocumentMoniker": "Models\\Estoque.cs",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\Estoque.cs",
+              "RelativeToolTip": "Models\\Estoque.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T20:24:38.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T20:24:36.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\source\\repos\\Constructto\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\phili\\source\\repos\\Constructto\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T20:23:28.229Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

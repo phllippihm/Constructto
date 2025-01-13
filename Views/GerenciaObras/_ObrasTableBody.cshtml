@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Constructto.Models.Obras>
+
+@foreach (var obra in Model)
+{
+    <tr>
+        <td>@obra.Obra</td>
+        <td>
+            <a href="@Url.Action("Edit", "GerenciaObras", new { id = obra.ObraId })" class="btn btn-primary">Editar</a>
+            <form asp-action="Delete" asp-route-id="@obra.ObraId" method="post" class="d-inline">
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Deseja excluir esta obra?')">Excluir</button>
+            </form>
+        </td>
+    </tr>
+}

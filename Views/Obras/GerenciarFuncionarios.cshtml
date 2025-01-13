@@ -1,0 +1,148 @@
+﻿@model Constructto.Models.ObrasViewModel
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+ 
+        <div class="col-md-12 text-start">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> Voltar
+            </a>
+        </div>
+
+        <div class="col-md-8 text-center">
+            <img src="/Imagens/foto.png" alt="Logo" class="login-logo mx-auto d-block mb-4" />
+            <h2>Gerenciar Funcionários nas Obras</h2>
+        </div>
+    </div>
+
+    <!-- Barra de Pesquisa para Obras -->
+    <div class="row mt-3">
+        <div class="col-md-5">
+            <input id="searchObra" class="form-control mb-2" type="text" placeholder="Pesquisar Obras...">
+        </div>
+
+        <!-- Barra de Pesquisa para Funcionários Disponíveis -->
+        <div class="col-md-5 offset-md-2">
+            <input id="searchFuncionario" class="form-control mb-2" type="text" placeholder="Pesquisar Funcionários...">
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <!-- Coluna das Obras em Andamento -->
+        <div class="col-md-5">
+            <h3 class="text-center">Obras em Andamento: </h3>
+            <ul id="obrasList" class="list-group">
+                @foreach (var obra in Model.ListaDeObras)
+                {
+                    <li class="list-group-item obra-item" data-obra-id="@obra.ObraId">
+                        <span class="fw-bold">@obra.Obra</span>
+                        <ul class="funcionarios-list mt-2" data-obra-id="@obra.ObraId">
+                            @foreach (var funcionario in obra.Funcionarios)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center" data-funcionario-id="@funcionario.Id">
+                                    @funcionario.Nome
+                                    <button class="btn btn-sm btn-danger float-end remove-funcionario" data-funcionario-id="@funcionario.Id">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <div class="col-md-2 text-center align-self-center">
+            <i class="bi bi-arrow-left-right fs-2"></i>
+        </div>
+
+        <div class="col-md-5">
+            <h3 class="text-center">Funcionários Disponíveis: </h3>
+            <ul id="funcionariosDisponiveis" class="list-group">
+                @foreach (var funcionario in Model.Disponiveis)
+                {
+                    <li class="list-group-item draggable" draggable="true" data-funcionario-id="@funcionario.Id">
+                        @funcionario.Nome
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    function reloadLists() {
+        $.ajax({
+            url: '@Url.Action("GerenciarFuncionarios", "Obras")',
+            type: 'GET',
+            success: function (response) {
+                const tempContainer = $('<div>').html(response);
+
+                // Atualiza a lista de funcionários disponíveis
+                const updatedDisponiveis = tempContainer.find('#funcionariosDisponiveis').html();
+                $('#funcionariosDisponiveis').html(updatedDisponiveis);
+
+                // Atualiza a lista de funcionários em obras
+                const updatedObrasList = tempContainer.find('#obrasList').html();
+                $('#obrasList').html(updatedObrasList);
+
+                bindDragAndDropEvents();
+            }
+        });
+    }
+
+    function bindDragAndDropEvents() {
+        $('.draggable').on('dragstart', function (event) {
+            event.originalEvent.dataTransfer.setData('funcionarioId', $(this).data('funcionario-id'));
+        });
+
+        $('.list-group-item').on('dragover', function (event) {
+            event.preventDefault();
+        });
+
+        $('.list-group-item').on('drop', function (event) {
+            const obraId = $(this).data('obra-id');
+            const funcionarioId = event.originalEvent.dataTransfer.getData('funcionarioId');
+
+            $.post('@Url.Action("AllocateFuncionario", "Obras")', { obraId: obraId, funcionarioId: funcionarioId }, function () {
+                reloadLists();
+            });
+        });
+
+        $('.remove-funcionario').on('click', function () {
+            const obraId = $(this).closest('.funcionarios-list').data('obra-id');
+            const funcionarioId = $(this).data('funcionario-id');
+
+            $.post('@Url.Action("RemoveFuncionario", "Obras")', { obraId: obraId, funcionarioId: funcionarioId }, function () {
+                reloadLists();
+            });
+        });
+    }
+
+    // Função de pesquisa para obras
+    $('#searchObra').on('input', function () {
+        const searchTerm = $(this).val().toLowerCase();
+        $('#obrasList li.obra-item').each(function () {
+            const text = $(this).text().toLowerCase();
+            $(this).toggle(text.includes(searchTerm));
+        });
+    });
+
+    // Função de pesquisa para funcionários
+    $('#searchFuncionario').on('input', function () {
+        const searchTerm = $(this).val().toLowerCase();
+        $('#funcionariosDisponiveis li').each(function () {
+            const text = $(this).text().toLowerCase();
+            $(this).toggle(text.includes(searchTerm));
+        });
+    });
+
+    $(document).ready(function () {
+        bindDragAndDropEvents();
+    });
+</script>

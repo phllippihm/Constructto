@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Constructto.Models.Estoque>
+
+@foreach (var produto in Model)
+{
+    <tr>
+        <td>@produto.NomeProduto</td>
+        <td>@produto.Quantidade</td>
+        <td>@produto.Preco.ToString("C")</td>
+        <td>@produto.Fornecedor</td>
+        <td>@produto.DataDeEntrada.ToString("dd/MM/yyyy")</td>
+        <td>
+            <a href="@Url.Action("RegistraProduto", "Estoque", new { id = produto.Id })" class="btn btn-primary">Editar</a>
+            <a href="@Url.Action("DuplicarProduto", "Estoque", new { id = produto.Id })" class="btn btn-success">Duplicar</a>
+            <a href="@Url.Action("Delete", "Estoque", new { id = produto.Id })" class="btn btn-danger">Excluir</a>
+        </td>
+    </tr>
+}

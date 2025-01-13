@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+    var userName = user?.UserName ?? "Visitante";
+}
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<div class="home-container">
+    <h1>Olá, @userName</h1>
+
+    <div class="button-grid">
+        <a href="@Url.Action("GerenciarFuncionarios", "Obras")" class="grid-item blue" title="Gerenciar Funcionários">
+            <i class="bi bi-hammer"></i>
+        </a>
+        <a href="@Url.Action("ListaFuncionarios", "Funcionario")" class="grid-item orange" title="Lista de Funcionários">
+            <i class="bi bi-person"></i>
+        </a>
+        <a href="@Url.Action("ListaEstoque", "Estoque")" class="grid-item red" title="Gerenciar Estoque">
+            <i class="bi bi-box"></i>
+        </a>
+        <a href="@Url.Action("ListaObras", "GerenciaObras")" class="grid-item green" title="Lista de Obras">
+            <i class="bi bi-house"></i>
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+       
+    </script>
+}

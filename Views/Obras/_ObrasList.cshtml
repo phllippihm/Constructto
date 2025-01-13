@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Constructto.Models.Obras>
+
+@foreach (var obra in Model)
+{
+    <li class="list-group-item" data-obra-id="@obra.ObraId">
+        <span>@obra.Obra</span>
+        <ul class="funcionarios-list" data-obra-id="@obra.ObraId">
+            @foreach (var funcionario in obra.Funcionarios)
+            {
+                <li class="list-group-item" data-funcionario-id="@funcionario.Id">
+                    @funcionario.Nome
+                    <button class="btn btn-danger btn-sm remove-funcionario" data-funcionario-id="@funcionario.Id">Remover</button>
+                </li>
+            }
+        </ul>
+    </li>
+}

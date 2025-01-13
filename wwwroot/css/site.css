@@ -1,0 +1,158 @@
+/* Configurações gerais */
+html, body {
+    font-size: 14px;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Definir uma família de fontes padrão */
+    background-color: #fff; /* Fundo branco para toda a página */
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Estilo para elementos focados */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    outline: none; /* Remover o outline padrão */
+}
+
+/* Container da página de login e registro */
+.login-container, .register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* Largura máxima do container */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: none; /* Remove a sombra da caixa */
+}
+
+/* Estilo do logo */
+.login-logo, .register-logo {
+    max-width: 150px; /* Largura máxima desejada */
+    width: 100%; /* Ajuste de largura para tornar a imagem responsiva */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos inputs de login e registro */
+.login-input, .register-input {
+    width: 100%;
+    max-width: 400px; /* Limite máximo de largura */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Garantir que padding e border não afetem a largura total */
+}
+
+/* Estilo dos botões */
+.login-button, .register-button {
+    width: 100%;
+    max-width: 400px; /* Limite máximo de largura */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #011466;
+    color: #fff;
+    border: none;
+    cursor: pointer; /* Mostrar que o botão é clicável */
+}
+
+    .login-button:hover, .register-button:hover {
+        background-color: #001f4d; /* Cor mais escura no hover */
+    }
+
+/* Estilo secundário para o botão Cadastrar */
+.btn-secondary {
+    width: 100%;
+    max-width: 400px; /* Limite máximo de largura */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #011466;
+    color: #fff;
+    border: none;
+    cursor: pointer; /* Mostrar que o botão é clicável */
+}
+
+    .btn-secondary:hover {
+        background-color: #001f4d; /* Cor mais escura no hover */
+    }
+
+/* Media Query para Telas Pequenas */
+@media (max-width: 768px) {
+    .login-input, .login-button, .btn-secondary, .register-input, .register-button {
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    .login-logo, .register-logo {
+        max-width: 100px; /* Reduzir o tamanho do logo em telas menores */
+    }
+}
+
+/* Grid e layout para a Home */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Duas colunas */
+    grid-gap: 20px; /* Espaço entre os quadrados */
+    margin-top: 30px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.2s;
+    color: white;
+    font-size: 2rem; /* Tamanho dos ícones */
+}
+
+    .grid-item.blue {
+        background-color: #007bff;
+    }
+
+    .grid-item.orange {
+        background-color: #f39c12;
+    }
+
+    .grid-item.red {
+        background-color: #e74c3c;
+    }
+
+    .grid-item.green {
+        background-color: #1abc9c;
+    }
+
+    .grid-item:hover {
+        transform: scale(1.1); /* Pequeno aumento ao passar o mouse */
+    }
+
